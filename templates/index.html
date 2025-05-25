@@ -330,7 +330,7 @@
     <div class="container">
         <h1><span class="emoji">🎬</span> Movie Genre Predictor</h1>
         <form method="POST" id="genre-form">
-            <textarea name="sinopsis_text" rows="10" placeholder="Enter the movie synopsis here...">{{ request.form['sinopsis_text'] }}</textarea><br>
+            <textarea name="sinopsis_text" rows="10" placeholder="Enter the movie synopsis here (in english)...">{{ request.form['sinopsis_text'] }}</textarea><br>
             <div class="submit-button-wrapper">
                 <input type="submit" value="Predict Genres">
             </div>
